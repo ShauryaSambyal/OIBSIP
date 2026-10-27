@@ -62,7 +62,7 @@ export const HomePage = () => {
 
   return (
     <div className="pb-20">
-      <section className="relative overflow-hidden bg-stone-900 text-white py-20 px-4 sm:px-6 lg:px-8 border-b border-stone-800">
+      <section className="relative overflow-hidden bg-stone-900 text-white py-16 sm:py-20 px-4 sm:px-8 lg:px-12 mx-3 sm:mx-6 lg:mx-8 rounded-3xl border border-stone-800 shadow-xl">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl text-center lg:text-left">
             <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-stone-800 border border-stone-700 text-xs font-semibold text-orange-400 mb-6">

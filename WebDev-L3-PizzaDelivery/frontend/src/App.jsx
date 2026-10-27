@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider } from './context/AuthContext'
 import { SocketProvider } from './context/SocketContext'
 import { Navbar } from './components/Navbar'
-import { Footer } from './components/Footer'
 import { ProtectedRoute } from './components/ProtectedRoute'
 import { HomePage } from './pages/HomePage'
 import { RegisterPage } from './pages/RegisterPage'
@@ -23,7 +22,7 @@ export function App() {
         <SocketProvider>
           <div className="min-h-screen flex flex-col bg-stone-50 text-stone-900 font-sans selection:bg-orange-500 selection:text-white">
             <Navbar />
-            <main className="flex-1">
+            <main className="flex-1 pt-24 sm:pt-28 pb-12">
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/register" element={<RegisterPage />} />
@@ -65,7 +64,6 @@ export function App() {
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </main>
-            <Footer />
           </div>
         </SocketProvider>
       </AuthProvider>

@@ -83,7 +83,6 @@ WebDev-L3-PizzaDelivery/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── Footer.jsx
 │   │   │   ├── Navbar.jsx
 │   │   │   └── ProtectedRoute.jsx
 │   │   ├── context/
